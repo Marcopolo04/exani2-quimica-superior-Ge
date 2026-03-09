@@ -125,7 +125,7 @@ document.getElementById('submitBtn').onclick = async function() {
 
     // Enviar a Google Sheets
     try {
-        await fetch(scriptURL, {
+        await fetch(scriptURL, {'https://script.google.com/macros/s/AKfycbxgmWuhNh7O0DgBtlkjgUn5a7et68mOIziy03owbATmo8PUkAENNlt_wZzIS2nFyGAV5A/exec'}
             method: 'POST',
             mode: 'no-cors',
             headers: { 'Content-Type': 'application/json' },
@@ -139,4 +139,5 @@ document.getElementById('submitBtn').onclick = async function() {
 </script>
 
 </body>
+
 </html>
